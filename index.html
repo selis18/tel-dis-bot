@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bot</title>
+</head>
+<body>
+    <div class="content">
+        <form action="/start-bot" method="post">
+            <label for="tk">Telegram Token</label>
+            <input type="text" id="tk" name="tk" required>
+
+            <label for="tci">Telegram Chat Id</label>
+            <input type="text" id="tci" name="tci" required>
+
+            <label for="dt">Discord Token</label>
+            <input type="text" id="dt" name="dt" required>
+
+            <input type="submit" value="Start bot">
+        </form>
+    </div>    
+    <script src="bot.js"></script>
+</body>
+</html>
